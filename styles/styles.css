@@ -1,4 +1,3 @@
-
 *{
     margin:0;
     padding:0;
@@ -62,6 +61,7 @@ p{
     transition: .4s;
 }
 
+
 .photo-cv:hover{
     width:294px;
     height:399px;
@@ -69,6 +69,15 @@ p{
     border:2px #000 solid;
     transition: .4s;
 }
+
+.cyber{
+    width:350px;
+    height:380px;
+    position:relative;
+    border:2px #000 solid;
+    transition: .4s;
+}
+
 
 .section{
     padding: 100px 0;
@@ -84,6 +93,14 @@ p{
 /* bacground des autres div avec les realisation, compétences */
 .dark{
     background: url(../img/slider3.jpg);
+    background-size: cover;
+    background-position-y: 50%;
+    filter:brightness(95%);
+    color: #FFF;
+}
+
+.education{
+    background: url(../img/second-slider.jpg);
     background-size: cover;
     background-position-y: 50%;
     filter:brightness(95%);
@@ -121,6 +138,10 @@ p{
 
 .gap20{
     gap:20px;
+}
+
+.gap320{
+    gap:320px;
 }
 /* fin declaration */
 
@@ -212,11 +233,26 @@ p{
 .value{
     display: block;
     font-size: 1.5rem;
+    color:#fff;
+}
+
+.value2{
+    display: block;
+    font-size: 1.5rem;
+    color:#000;
 }
 
 /* classe contact */
 .contact{
-    border:2px solid #FFF;
+    border:2px solid #fff;
+    border-radius: 15px;
+    padding: 15px;
+    box-sizing:  border-box;
+    margin:20px; /* permet d'espacer les contacts */
+
+}
+.contact2{
+    border:2px solid #000;
     border-radius: 15px;
     padding: 15px;
     box-sizing:  border-box;
@@ -233,14 +269,26 @@ p{
 
 .contact a{
     text-decoration: none;
-    color: #fff;;
+    color: #fff;
 }
 .aligncenter{
     align-items: center;
 }
 
 .mon-email{
-    color:#FFF
+    color:#fff;
+}
+
+.contact2 a{
+    text-decoration: none;
+    color: #000;
+}
+.aligncenter{
+    align-items: center;
+}
+
+.mon-email2{
+    color:#000;
 }
 
 /* permet d'agrandir le mail quand la souris la survole */
