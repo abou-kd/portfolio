@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        
+        <title> A propos de moi</title>
+        <meta type="description" content="Ceci est mon Portfolio">
+        <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+        <link rel="stylesheet" href="./styles/styles.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="boxed colored">
+                <div class="flex aligncenter space-between ">
+                    <button onclick="openMenu()" class="header-menu-mobile">
+                        <span class="material-symbols-outlined"> menu</span>
+                    </button>
+                     <a href="./index.html" class="header-logo">
+                        <img src="./img/logo2.png">
+                     </a>
+                     <ul class="header-menu">
+                        <li> <a href="./index.html"> Accueil </a> </li>
+                        <li> <a href="#mon-parcours"> Education</a> </li>
+                        <li> <a href="#mes-langues"> Langues </a> </li>
+                        <li> <a href="#mes-interets"> Intérêts </a> </li>
+                        <li> <a href="#mes-contacts"> Contact </a> </li>
+                     </ul>
+                    
+                </div>
+            </div>
+
+        </header>
+
+        <div class ="slider" >
+            <img src ="./img/second-slider.jpg" class = "slider-background">
+            <div class="slider-content">
+                <h1> KABA DIALLO Aboubacar</h1>
+                <p> étudiant en BUT1 Informatique</p>
+                <a id="a-propos"> </a>
+                <div id="mon-parcours"></div>   
+            </div>
+             
+        </div>
+        
+        
+        <div class ="section">
+            <div class="boxed" >
+                <div class="flex toColumn mCenter ">
+                    <div class="w40 wm100" >
+                        <h2 class="lien-cv"> 
+                            
+                            <a> <img src="./img/cyber.webp" class="cyber"></a>
+                        </h2>
+                    </div>
+                    <div class="w60 wm100">
+                        <p>
+                            Concernant mon parcours scolaire, j'ai suivi un lycée général avec les spécialités Mathématiques et Numérique et Sciences Informatiques (NSI), qui s'est conclu par l'obtention du Baccalauréat général avec mention Bien en 2024.
+                            Actuellement étudiant en première année de BUT Informatique à l'IUT d'Orsay, je souhaite intégrer l'année prochaine le parcours B - Cybersécurité.
+                            C'est dans cette optique que je recherche une alternance en informatique, de préférence dans les domaines de la cybersécurité et des réseaux.
+                            Après l'obtention de mon BUT, j'envisage de poursuivre mes études en école d'ingénieur afin de me spécialiser davantage en cybersécurité.
+                            Mon objectif est de devenir Pentester dans un premier temps, puis de me perfectionner et d'évoluer vers d'autres métiers du secteur.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <a id="mes-langues"></a>
+        </div>
+
+        <div class ="section education" >
+            <div class="boxed text-center" >
+                <h2> Mes Langues </h2>
+                <div class="flex wrap gap20 space-between">
+                    <div class="w32 skill wm100">
+                        <img src="./img/icon-france.avif">
+                        <h3> Français Bilingue</h3>
+                    </div>
+                    <div class="w32 skill wm100">
+                        <img src="./img/icon-usa.avif">
+                        <h3> Anglais B2</h3>
+                    </div>
+                    <div class="w32 skill wm100">
+                        <img src="./img/icon-spain.png">
+                        <h3> Espagnol Bilingue</h3>
+                    </div>
+                </div>
+            </div>
+            <a id="mes-interets"></a>
+        </div>
+
+        <div class ="section" >
+            <div class="boxed text-center " >
+                <h2> Mes Centres d'Intérêts </h2>
+                <div class="flex wrap gap20 space-between ">
+
+                    <div class="w32 realisation ">
+                        <a>
+                            <img src="./img/chess.jpg">
+                    
+                        </a>
+                        
+                    </div>
+
+                    <div class="w32 realisation ">
+                        <a>
+                            <img src="./img/football.png">
+                        
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class ="section education" id="mes-contacts">
+            <div class="boxed text-center" >
+                    <h2> CONTACTEZ MOI </h2>
+                    <div class="flex toColumn space-between mgap20">
+                        <div class="w32 wm100 contact2 bigger">
+                            <span class="material-symbols-outlined icon">mail </span>
+                            <span class="value mon-email "><a href="mailto:a.kabadiallo@gmail.com" > a.kabadiallo@gmail.com </a></span>
+                            <span class="material-symbols-outlined icon">link </span>
+                        </div>
+                    
+
+                        <div class="w32 wm100 contact2 bigger">
+                            <span class="material-symbols-outlined icon">call </span>
+                            <span class="value2">+33 6 14 19 97 18 </span>
+                        </div>
+
+                        <div class="w32 wm100 contact2 bigger">
+                            <a href="https://www.linkedin.com/in/aboubacar-kaba-diallo" target="_blank">
+                                <img src="./img/linkedin-icon.png" class="linkedin">
+                                <span class="value mon-email2"> KABA DIALLO Aboubacar</span>
+                                <span class="material-symbols-outlined icon">link </span>
+                            </a>
+
+                            
+                        </div>
+
+                        <div class="w32 wm100 contact2 bigger">
+                            <a href="https://github.com/abou-kd" target="_blank">
+                                <img src="./img/github-icon.png" class="linkedin">
+                                <span class="value2 mon-email2">Mon Github</span>
+                                <span class="material-symbols-outlined icon">link </span>
+                            </a>
+
+                            
+                        </div>
+                    </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="./js/app.js"> </script>
+</html>
